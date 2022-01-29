@@ -534,6 +534,14 @@ header {
         #nav-sp > a:active {
             color: #ffffff;
         }
+
+
+           /* スマホ用ナビを非表示 */
+        #nav-sp,
+        #menu-sp {
+            display: none;
+        }
+
         #nav-sp > .menu {
             text-decoration: none;
             display: block;
@@ -551,6 +559,44 @@ header {
          }
          #sns > a {
              margin-right: 30px;
+         }
+
+         /* メインビジュアル */
+         #main-visual {
+             position: relative;
+             height: 470px;
+             width: 100%;
+             overflow: hidden;
+         }
+         #main-visual > div {
+             position: absolute;
+             top: 0;
+             left: 0;
+             background-color: #2710d5;
+             color: white;
+             border-radius: 0 0 476px 0;
+             text-align: center;
+             height: 280px;
+             width: 100%;
+             z-index: 11;
+         }
+         #main-visual > div > div {
+             margin: 100px 0 auto 0;
+         }
+         #main-visual > div > h1 {
+             font-size: 28px;
+             margin: 90px 0 0 0;
+         }
+         #main-visual > div > p {
+             margin: 0;
+         }
+         #main-visual > img {
+             width: 100%;
+             border-radius: 476px 0 0 0;
+             z-index: 10;
+             position: absolute;
+             bottom: 0;
+             right: 0;
          }
          a:visited {color:#00ccff;}
     }
