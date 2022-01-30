@@ -695,5 +695,26 @@ header {
              width: 100%;
          }
 
+         .culture-num {
+            font-size: 80px;
+            color: #2710d5;
+          }
+        
+          .culture-en {
+            color: #2710d5;
+            font-weight: bold;
+            font-size: 24px;
+            display: block;
+          }
+        
+          .culture-jp {
+            display: block;
+          }
+        
+          .culture-description {
+            margin: 0;
+          }
+
+
 
     }
