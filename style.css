@@ -599,4 +599,72 @@ header {
              right: 0;
          }
         
+         /* 見出し */
+         h2::after {
+             content: url("images/line.png");
+             margin-left: 10px;
+         }
+
+         h3 {
+             font-size: 24px;
+             margin: 10px 0 0 0;
+         }
+
+         /* ミッション */
+         #mission {
+             margin: 20px;
+         }
+
+         #mission-photo {
+             width: 100%;
+         }
+
+         #s2dgs {
+             width: 100%;
+         }
+
+         /* プロダクト */
+         #product {
+             background-color: #fafafa;
+             padding: 10px;
+         }
+
+         #product h2 {
+             margin-left: 20px;
+         }
+         /* 外枠 */
+         /* 左右のカラム　スマホでは縦並び */
+         #product-left,
+         #product-right {
+             margin-right: 20px;
+             margin-left: 20px;
+         }
+
+         /* 画像＋説明の枠 */
+         #product-left > div,
+         #product-right > div {
+             padding: relative;
+             height: 540px;
+         }
+         /* 説明文の枠 */
+         .product-explain {
+             background-color: #ffffff;
+             position: absolute;
+             left: 0;
+             bottom: 50px;
+             padding: 20px;
+             box-shadow: 100% 10px rgba(0, 0, 0, 0.05);
+         }
+
+         .product-explain > span {
+             color: #2710d5;
+             font-weight: bold;
+             font-weight: bold;
+             font-size: 16px;
+             margin: 0px;
+         }
+
+         .product-explain > h3 {
+             margin: 10px 0 10px 0;
+         }
     }
