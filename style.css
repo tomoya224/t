@@ -659,7 +659,6 @@ header {
          .product-explain > span {
              color: #2710d5;
              font-weight: bold;
-             font-weight: bold;
              font-size: 16px;
              margin: 0px;
          }
@@ -667,4 +666,34 @@ header {
          .product-explain > h3 {
              margin: 10px 0 10px 0;
          }
+
+         #product-more > img {
+             margin: 0 0 -42px 20px;
+         }
+
+         /* ABOUT US */
+         #aboutus {
+           margin: 80px 20px 80px 20px;
+         }
+
+         #aboutus > div {
+             display: flex;
+             flex-direction: columu;
+         }
+
+         .culture-table {
+             width: 100%;
+             padding-right: 20px;
+             order: 2;
+         }
+         .culture-img {
+             width: 100%;
+             order: 1;
+         }
+
+         .culture-img2 {
+             width: 100%;
+         }
+
+
     }
